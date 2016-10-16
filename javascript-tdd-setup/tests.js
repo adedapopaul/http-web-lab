@@ -54,6 +54,23 @@ it("should give 28 when 13 is passed", function() {
     );
   });
 
+it("should give 31 when 14 is passed", function() {
+    assert(
+      lib.sum_of_primes(14)==41
+    );
+  });
+
+it("should give 31 when 15 is passed", function() {
+    assert(
+      lib.sum_of_primes(15)==41
+    );
+  });
+
+it("should give 31 when 16 is passed", function() {
+    assert(lib.sum_of_primes(16)==41);
+  });
+
+
 
 
 
