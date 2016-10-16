@@ -16,5 +16,18 @@ it("should give 10 when 7 is passed", function() {
   });
 
 
- 
+ it("should give 10 when 78 is passed", function() {
+    assert(
+      lib.sum_of_primes(8)==17
+    );
+  });
+
+it("should give 10 when 9 is passed", function() {
+    assert(
+      lib.sum_of_primes(9)==17
+    );
+  });
+
+
+
   });
