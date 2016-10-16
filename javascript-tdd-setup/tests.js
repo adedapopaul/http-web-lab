@@ -10,4 +10,11 @@ describe("Test that constants are computed properly", function() {
     assert(lib.sum_of_primes(5)==10);
   });
  
+it("should give 10 when 7 is passed", function() {
+    assert(
+      lib.sum_of_primes(7)==17);
+  });
+
+
+ 
   });
