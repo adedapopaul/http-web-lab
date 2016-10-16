@@ -29,5 +29,32 @@ it("should give 10 when 9 is passed", function() {
   });
 
 
+it("should give 17 when 10 is passed", function() {
+    assert(
+      lib.sum_of_primes(10)==17
+    );
+ });
+
+
+it("should give 28 when 11 is passed", function() {
+    assert(
+      lib.sum_of_primes(11)==28
+    );
+  });
+
+it("should give 28 when 12 is passed", function() {
+    assert(
+      lib.sum_of_primes(12)==28
+    );
+  });
+
+it("should give 28 when 13 is passed", function() {
+    assert(
+      lib.sum_of_primes(13)==41
+    );
+  });
+
+
+
 
   });
